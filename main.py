@@ -1,9 +1,11 @@
 """food-picture-01 entry: write our food picture to /output/entry.png.
 
-The entry ships one picture (entry.png, a steaming bowl of tonkotsu ramen
-with a noodle lift, chashu, jammy egg, spring onions and nori) and this
-program copies it, byte for byte, to the output directory. Pure Python 3.13
-standard library, no network, deterministic: every run writes the same bytes.
+The entry ships one picture (entry.png, a double smash burger with
+molten cheddar cascading over charred patties, crispy bacon, tomato and
+lettuce in a glossy sesame brioche bun, golden fries on a dark slate
+board) and this program copies it, byte for byte, to the output
+directory. Pure Python 3.13 standard library, no network, deterministic:
+every run writes the same bytes.
 """
 
 import hashlib
