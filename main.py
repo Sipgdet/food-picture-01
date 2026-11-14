@@ -1,11 +1,15 @@
 """food-picture-01 entry: write our food picture to /output/entry.png.
 
-The entry ships one picture (entry.png, a double smash burger with
-molten cheddar cascading over charred patties, crispy bacon, tomato and
-lettuce in a glossy sesame brioche bun, golden fries on a dark slate
-board) and this program copies it, byte for byte, to the output
-directory. Pure Python 3.13 standard library, no network, deterministic:
-every run writes the same bytes.
+Round 2 (2026-11-14): back to ramen — the round-1 burger scored
+897253 (#602), clearly below the original ramen's 913525 (#337), and
+the top 3 on the board are all ramen. The entry ships one picture
+(entry.png, a steaming tonkotsu ramen at golden hour: glossy wavy
+noodles lifted high in a dramatic chopstick noodle pull, rich creamy
+broth, jammy soft-boiled egg with a deep orange yolk, glistening
+chashu, black garlic oil swirls, spring onions and nori in a dark
+rustic bowl, steam catching warm light) and this program copies it,
+byte for byte, to the output directory. Pure Python 3.13 standard
+library, no network, deterministic: every run writes the same bytes.
 """
 
 import hashlib
